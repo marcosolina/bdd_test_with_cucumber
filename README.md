@@ -11,11 +11,13 @@ Topics covered:
 * Api Tests
 * [Cucumber Tags (link)](https://cucumber.io/docs/cucumber/api/#tags)
 
-Example:
+## How to run
+
+From the terminal:
 
 ```bash
 
-$ mvn test "-Dcucumber.filter.tags=@WebSiteTask or @WebSiteLogIn"
+repo/cucumber: $ mvn test "-Dcucumber.filter.tags=@WebSiteTask or @WebSiteLogIn"
 
 -------------------------------------------------------
  T E S T S
